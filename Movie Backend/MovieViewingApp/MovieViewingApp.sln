@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieViewingApp", "MovieViewingApp.csproj", "{44E49F62-3461-43AD-B51E-166280925383}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieViewingApp.Application", "..\MovieViewingApp.Application\MovieViewingApp.Application.csproj", "{494D39F0-72ED-4A19-B5AF-A03F9B6438B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieViewingApp.Domain", "..\MovieViewingApp.Domain\MovieViewingApp.Domain.csproj", "{FEC7A707-B205-49B2-A0B5-996B598FC3CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44E49F62-3461-43AD-B51E-166280925383}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44E49F62-3461-43AD-B51E-166280925383}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44E49F62-3461-43AD-B51E-166280925383}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44E49F62-3461-43AD-B51E-166280925383}.Release|Any CPU.Build.0 = Release|Any CPU
+		{494D39F0-72ED-4A19-B5AF-A03F9B6438B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{494D39F0-72ED-4A19-B5AF-A03F9B6438B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{494D39F0-72ED-4A19-B5AF-A03F9B6438B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{494D39F0-72ED-4A19-B5AF-A03F9B6438B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEC7A707-B205-49B2-A0B5-996B598FC3CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEC7A707-B205-49B2-A0B5-996B598FC3CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEC7A707-B205-49B2-A0B5-996B598FC3CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEC7A707-B205-49B2-A0B5-996B598FC3CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A872EFC-B39B-400B-B337-C3FC21CF3086}
+	EndGlobalSection
+EndGlobal
